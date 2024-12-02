@@ -9,7 +9,7 @@ function Navbar() {
         <div className="flex flex-shrink-0 items-center">
           <Link
             href="/"
-            className=" text-[#16f2b3] text-3xl font-bold">
+            className=" text-transparent bg-clip-text bg-gradient-to-r from-indigo-500 to-purple-600 text-3xl font-bold">
             Ismail Soudassi
           </Link>
         </div>
