@@ -2,7 +2,6 @@
 
 import Link from "next/link";
 import * as React from "react";
-
 function ProjectCard({ project }) {
   return (
     <div className="from-[#0d1224] border-[#1b2c68a0] relative rounded-lg border bg-gradient-to-r to-[#0a0d37] w-full">
@@ -81,6 +80,16 @@ function ProjectCard({ project }) {
             <span className="text-gray-400">{`};`}</span>
           </div>
         </code>
+        {project.image && project.image.trim() !== "" ? (
+            <Link href={project.code} className="p-2 mt-3 rounded-lg h-[30vh]">
+            <img
+              src={project.image}
+              alt="mweblabs"
+              className="h-full w-full object-scale-down border-[1px] border-indigo-900 p-2 rounded-lg"
+            />
+          </Link>
+          ) : null}
+       
       </div>
     </div>
   );

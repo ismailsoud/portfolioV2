@@ -1,20 +1,21 @@
 export const projectsData = [
   {
     id: 1,
-    name: "MWebLabs Agency Website",
+    name: "Learning Management System",
     description:
-      "A modern, responsive website for a web development agency built with React and Tailwind CSS. The website features a clean design with sections for services, testimonials, project templates, and a contact form.",
+      "EduClick is a modern Learning Management System designed to revolutionize education with seamless course creation, video delivery, and secure payments. Empowering both educators and students with intuitive tools and a cutting-edge platform.",
     tools: [
-      "React",
+      "Next.js 13",
       "Tailwind CSS",
-      "Vite",
-      "Node.js",
-      "Netlify Functions",
-      "Express.js",
+      "Clerk",
+      "MySQL",
+      "Prisma ORM",
+      "UploadThing",
     ],
-    role: "FullStack Developer",
-    code: "https://github.com/ismailsoud/mweblabs",
-    demo: "https://mweblabs.agency/",
+    role: "Full Stack Developer",
+    code: "https://github.com/ismailsoud/easyLead",
+    demo: "",
+    image: ""
   },
   {
     id: 2,
@@ -36,6 +37,7 @@ export const projectsData = [
     code: "https://github.com/ismailsoud/easyLead",
     role: "Full Stack Developer",
     demo: "",
+    image: ""
   },
   {
     id: 3,
@@ -46,22 +48,24 @@ export const projectsData = [
     code: "https://github.com/ismailsoud/job-scraper",
     role: "Full Stack Developer",
     demo: "",
+    image: ""
   },
   {
     id: 4,
-    name: "Learning Management System",
+    name: "MWebLabs Agency Website",
     description:
-      "EduClick is a modern Learning Management System designed to revolutionize education with seamless course creation, video delivery, and secure payments. Empowering both educators and students with intuitive tools and a cutting-edge platform.",
+      "A modern, responsive website for a web development agency built with React and Tailwind CSS. The website features a clean design with sections for services, testimonials, project templates, and a contact form.",
     tools: [
-      "Next.js 13",
+      "React",
       "Tailwind CSS",
-      "Clerk",
-      "MySQL",
-      "Prisma ORM",
-      "UploadThing",
+      "Vite",
+      "Node.js",
+      "Netlify Functions",
+      "Express.js",
     ],
-    role: "Full Stack Developer",
-    code: "https://github.com/ismailsoud/easyLead",
-    demo: "",
-  },
+    role: "FullStack Developer",
+    code: "https://github.com/ismailsoud/mweblabs",
+    demo: "https://mweblabs.agency/",
+    image: "/image/mweblabs.png"
+  }
 ];
