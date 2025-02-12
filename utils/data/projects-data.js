@@ -1,6 +1,21 @@
 export const projectsData = [
   {
     id: 1,
+    name: "Commercial cleaning company website",
+    description:
+      "A modern, responsive website for a commercial cleaning company built with React and Tailwind CSS.",
+    tools: [
+      "react.js",
+      "Tailwind CSS",
+      "node.js",
+    ],
+    role: "Full Stack Developer",
+    code: "",
+    demo: "https://qsrclean.com/",
+    image: "/image/qsrclean.png"
+  },
+  {
+    id: 2,
     name: "Learning Management System",
     description:
       "EduClick is a modern Learning Management System designed to revolutionize education with seamless course creation, video delivery, and secure payments. Empowering both educators and students with intuitive tools and a cutting-edge platform.",
@@ -15,10 +30,10 @@ export const projectsData = [
     role: "Full Stack Developer",
     code: "https://github.com/ismailsoud/easyLead",
     demo: "",
-    image: ""
+    image: "/image/educlick.png"
   },
   {
-    id: 2,
+    id: 3,
     name: "Google Maps Lead generator tool",
     description:
       "A full-stack web application that helps generate leads from Google Maps by scraping business information based on search queries. The application provides a clean interface to search for businesses and export the results to CSV format.",
@@ -37,10 +52,10 @@ export const projectsData = [
     code: "https://github.com/ismailsoud/easyLead",
     role: "Full Stack Developer",
     demo: "",
-    image: ""
+    image: "/image/leadGenerator.png"
   },
   {
-    id: 3,
+    id: 4,
     name: "Freelancing jobs scraper",
     description:
       "This is a script that scrapes job posts from major freelancing websites (Upwork, Freelancer, Mostaql). You can use it as is, or you can use it as an API, and it will be updated once every hour.",
@@ -48,10 +63,10 @@ export const projectsData = [
     code: "https://github.com/ismailsoud/job-scraper",
     role: "Full Stack Developer",
     demo: "",
-    image: ""
+    image: "/image/jobScraper.png"
   },
   {
-    id: 4,
+    id: 5,
     name: "MWebLabs Agency Website",
     description:
       "A modern, responsive website for a web development agency built with React and Tailwind CSS. The website features a clean design with sections for services, testimonials, project templates, and a contact form.",
